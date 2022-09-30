@@ -11,6 +11,8 @@ public class Player {
 
     private String name;
 
+    // Building unidirectional (one-to-one) relationship with playerProfile object into player
+    // and we are setting profile id with referenced column id of playerProfile
     // One profile will have one player only
     //building 1:1 relationship with other entity
     @OneToOne(cascade = CascadeType.ALL)

@@ -1,6 +1,7 @@
 package com.spring.database.relationship.SpringDBRelationship.oneToOne.Service;
 
 
+import com.spring.database.relationship.SpringDBRelationship.oneToOne.Entity.Player;
 import com.spring.database.relationship.SpringDBRelationship.oneToOne.Entity.PlayerProfile;
 import com.spring.database.relationship.SpringDBRelationship.oneToOne.Repository.PlayerProfileRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -47,6 +48,9 @@ public class PlayerProfileService {
 
         pprepo.delete(tempPlayer.get());
     }
+
+
+
 
 
 
