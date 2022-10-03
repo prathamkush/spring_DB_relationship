@@ -3,7 +3,6 @@ package com.spring.database.relationship.SpringDBRelationship.oneToOne.Service;
 import com.spring.database.relationship.SpringDBRelationship.oneToOne.Entity.Player;
 import com.spring.database.relationship.SpringDBRelationship.oneToOne.Entity.PlayerProfile;
 import com.spring.database.relationship.SpringDBRelationship.oneToOne.Repository.PlayerRepository;
-import com.spring.database.relationship.SpringDBRelationship.oneToOne.Repository.PlayerRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.PathVariable;
